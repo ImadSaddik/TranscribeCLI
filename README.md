@@ -7,6 +7,24 @@
 
 Transcribe CLI is a fast, lightweight, and user-friendly command-line utility for transcribing audio files using a local server running [whisper.cpp](https://github.com/ggml-org/whisper.cpp).
 
+## Installation
+
+You can install the CLI tool system-wide using the provided [Makefile](./Makefile).
+
+Navigate to the project directory and run:
+
+```bash
+make install
+```
+
+This command installs a lightweight wrapper script in `/usr/local/bin/transcribe` which automatically runs the main script with the correct dependencies using `uv`.
+
+To uninstall the script, run:
+
+```bash
+make uninstall
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
