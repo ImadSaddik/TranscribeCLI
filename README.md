@@ -25,6 +25,28 @@ To uninstall the script, run:
 make uninstall
 ```
 
+## Usage
+
+Run the `transcribe` command followed by the path to your audio file:
+
+```bash
+transcribe podcast.mp3
+```
+
+By default, the transcription will be saved in the same directory as the audio file with a `.txt` extension.
+
+If you want to specify a custom output file path, pass it as a second argument:
+
+```bash
+transcribe podcast.mp3 /path/to/custom_output.txt
+```
+
+To view the help information:
+
+```bash
+transcribe --help
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
