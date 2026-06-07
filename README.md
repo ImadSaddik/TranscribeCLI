@@ -6,3 +6,7 @@
 ![transcribe_cli_banner](./images/readme_banner.png)
 
 Transcribe CLI is a fast, lightweight, and user-friendly command-line utility for transcribing audio files using a local server running [whisper.cpp](https://github.com/ggml-org/whisper.cpp).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
