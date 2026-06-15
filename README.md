@@ -66,6 +66,12 @@ If you want to specify a custom output file path, pass it as a second argument:
 transcribe podcast.mp3 /path/to/custom_output.txt
 ```
 
+To include timestamps in the output, use the `-t` or `--timestamps` option:
+
+```bash
+transcribe podcast.mp3 -t
+```
+
 To view the help information:
 
 ```bash
